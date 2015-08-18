@@ -293,7 +293,7 @@ ul.messenger-theme-future .messenger-message .messenger-message-inner:before {
   z-index: 20;
 }
 /* line 103, ../../src/sass/messenger-theme-future.sass */
-ul.messenger-theme-future .messenger-message.messenger-success .messenger-message-inner:before {
+ul.messenger-theme-future .messenger-message.message-success .messenger-message-inner:before {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVmY2E0YSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzA5OGQzOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5fca4a), color-stop(100%, #098d38));
@@ -303,7 +303,7 @@ ul.messenger-theme-future .messenger-message.messenger-success .messenger-messag
   background-color: #5fca4a;
 }
 /* line 107, ../../src/sass/messenger-theme-future.sass */
-ul.messenger-theme-future .messenger-message.messenger-info .messenger-message-inner:before {
+ul.messenger-theme-future .messenger-message.message-info .messenger-message-inner:before {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYxYzRiOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE5OTJhMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #61c4b8), color-stop(100%, #1992a3));
@@ -313,7 +313,7 @@ ul.messenger-theme-future .messenger-message.messenger-info .messenger-message-i
   background-color: #61c4b8;
 }
 /* line 113, ../../src/sass/messenger-theme-future.sass */
-ul.messenger-theme-future .messenger-message.messenger-error .messenger-message-inner:before {
+ul.messenger-theme-future .messenger-message.message-error .messenger-message-inner:before {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RkNmE0NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzkxMzYxYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd6a45), color-stop(100%, #91361a));
@@ -323,13 +323,13 @@ ul.messenger-theme-future .messenger-message.messenger-error .messenger-message-
   background-color: #dd6a45;
 }
 /* line 34, ../../src/sass/messenger-spinner.scss */
-ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-soon .messenger-spinner {
+ul.messenger-theme-future .messenger-message.message-error.messenger-retry-soon .messenger-spinner {
   width: 32px;
   height: 32px;
   background: transparent;
 }
 /* line 39, ../../src/sass/messenger-spinner.scss */
-ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-soon .messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
+ul.messenger-theme-future .messenger-message.message-error.messenger-retry-soon .messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
   background: #dd6a45;
   -moz-animation-duration: 20s;
   -webkit-animation-duration: 20s;
@@ -337,7 +337,7 @@ ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-soo
   opacity: 1;
 }
 /* line 47, ../../src/sass/messenger-spinner.scss */
-ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-soon .messenger-spinner:after {
+ul.messenger-theme-future .messenger-message.message-error.messenger-retry-soon .messenger-spinner:after {
   content: "";
   background: #333;
   position: absolute;
@@ -349,13 +349,13 @@ ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-soo
   display: block;
 }
 /* line 34, ../../src/sass/messenger-spinner.scss */
-ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-later .messenger-spinner {
+ul.messenger-theme-future .messenger-message.message-error.messenger-retry-later .messenger-spinner {
   width: 32px;
   height: 32px;
   background: transparent;
 }
 /* line 39, ../../src/sass/messenger-spinner.scss */
-ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-later .messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
+ul.messenger-theme-future .messenger-message.message-error.messenger-retry-later .messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
   background: #dd6a45;
   -moz-animation-duration: 600s;
   -webkit-animation-duration: 600s;
@@ -363,7 +363,7 @@ ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-lat
   opacity: 1;
 }
 /* line 47, ../../src/sass/messenger-spinner.scss */
-ul.messenger-theme-future .messenger-message.messenger-error.messenger-retry-later .messenger-spinner:after {
+ul.messenger-theme-future .messenger-message.message-error.messenger-retry-later .messenger-spinner:after {
   content: "";
   background: #333;
   position: absolute;

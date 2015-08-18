@@ -97,14 +97,14 @@ ul.messenger-theme-ice .messenger-message .messenger-message-inner:before {
   margin-bottom: 2px;
 }
 /* line 84, ../../src/sass/messenger-theme-ice.sass */
-ul.messenger-theme-ice .messenger-message.messenger-success .messenger-message-inner:before {
+ul.messenger-theme-ice .messenger-message.message-success .messenger-message-inner:before {
   content: "Success";
 }
 /* line 88, ../../src/sass/messenger-theme-ice.sass */
-ul.messenger-theme-ice .messenger-message.messenger-error .messenger-message-inner:before {
+ul.messenger-theme-ice .messenger-message.message-error .messenger-message-inner:before {
   content: "Error";
 }
 /* line 92, ../../src/sass/messenger-theme-ice.sass */
-ul.messenger-theme-ice .messenger-message.messenger-info .messenger-message-inner:before {
+ul.messenger-theme-ice .messenger-message.message-info .messenger-message-inner:before {
   content: "Information";
 }
