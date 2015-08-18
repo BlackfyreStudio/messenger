@@ -196,7 +196,7 @@ class _Message extends BaseView
         return actions
 
     template: (opts) ->
-        $message = $ "<div class='messenger-message message alert #{ opts.type } message-#{ opts.type } alert-#{ opts.type }'>"
+        $message = $ "<div class='messenger-message message message-#{ opts.type }'>"
 
         if opts.showCloseButton
             $cancel = $ '<button type="button" class="messenger-close" data-dismiss="alert">'
